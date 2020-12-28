@@ -27,10 +27,9 @@ $ git rm --cached myfile
 $ git commit --amend --no-edit
 ```
 
-### 想要贡献代码到别人的项目
-首先fork项目到自己的账号并复制url，然后运行：  
-`$ git clone [fork url]`  
-然后进入项目修改完毕后，运行：   
-`$ git remote add upstream [origin url]`  
-就可以进行push操作了
+### 想要删除最后一次提交
+如果已经推上去了，不建议删除。  
+如果还没推，则可以重置git状态到提交前，同时能够保留所做修改：
+`(my-branch*)$ git reset --soft HEAD@{1}`  
+
 
