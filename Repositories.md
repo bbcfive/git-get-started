@@ -13,7 +13,7 @@
 `git remote add origin [url]`
 
 ### 将本地提交推到github上
-`git push -u origin master`
+`git push --set-upstream origin master`
 
 ### 想要克隆一个远程仓库
 先复制仓库URl，然后运行：  
