@@ -56,6 +56,3 @@ $ git branch -u [remotename]/[branch]
 (wrong_branch)$ git checkout <correct_branch>
 (correct_branch)$ git stash apply
 ``` 
-
-### 删除所有本地已合并的分支
-`$ git fetch -p upstream` 
